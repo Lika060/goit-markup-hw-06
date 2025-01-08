@@ -7,7 +7,9 @@ body {
 a {
     text-decoration: none;
 }
-
+.container {
+    flex-direction: row;
+}
 /* хедер */
 
 .header-logo {
@@ -24,9 +26,6 @@ a {
     color: #2e2f42;
 }
 
-/* .logo-span {
-  color: #2e2f42;
-} */
 .header-nav-links {
     font-size: 16px;
     font-weight: 500;
