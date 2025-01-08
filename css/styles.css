@@ -39,16 +39,29 @@ section {
 a {
     text-decoration: none;
 }
-
+.container{
+    flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 48px}
 /* заголовок */
 .container-header {
     flex-direction: row;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    align-items: center;
     display: flex;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 48px
 } 
 
 .header-logo {
@@ -91,14 +104,6 @@ a {
     background-color: #2e2f42;
 }
 
-.container-title {
-    flex-direction: row;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-    box-sizing: border-box;
-}
 .hero-section-title {
     font-weight: 700;
     line-height: 60px;
@@ -137,32 +142,8 @@ a {
 }
 
 /* фото1 */
-.container-photoone {
-    flex-direction: row;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-}
+
 /* фото2 */
-.container-phototwo {
-    flex-direction: row;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-    box-sizing: border-box;
-}
-
-.container-photothree {
-    flex-direction: row;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-    box-sizing: border-box;
-}
-
 .section-title {
     text-align: center;
     letter-spacing: 0.02em;
@@ -205,12 +186,16 @@ header {
 
 /* footer */
 .container-footer {
-    flex-direction: row;
+   flex-direction: row;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 48px
 }
 .footerok {
     background-color: #2e2f42;
