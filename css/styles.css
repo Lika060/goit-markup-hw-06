@@ -9,8 +9,17 @@ a {
 }
 .container {
     flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-/* хедер */
+/* заголовок */
+.container-header {
+    flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+} 
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -46,12 +55,18 @@ a {
     font-style: normal;
 }
 
-/* Hero */
+ /* заголовок та кнопка */
 
 .hero-section {
     background-color: #2e2f42;
 }
 
+.container-title {
+    flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+     margin: 0 auto;
+}
 .hero-section-title {
     font-weight: 700;
     line-height: 60px;
@@ -89,9 +104,27 @@ a {
     color: #404bbf;
 }
 
-/* section 2 */
+/* фото1 */
+.container-photoone {
+    flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+     margin: 0 auto;
+}
+/* фото2 */
+.container-phototwo {
+    flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
-/* Section 3 */
+.container-photothree {
+    flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
 .section-title {
     text-align: center;
@@ -134,7 +167,12 @@ header {
 }
 
 /* footer */
-
+.container-footer {
+    flex-direction: row;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .footerok {
     background-color: #2e2f42;
 }
