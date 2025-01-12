@@ -42,7 +42,7 @@ a {
 .container{
     flex-direction: row;
     max-width: 1158px;
-    padding: 0 15px;
+    padding: 188px 0;
     margin: 0 auto;
     display: flex;
     box-sizing: border-box;
@@ -51,6 +51,7 @@ a {
     text-align: center;
     gap: 48px}
 /* заголовок */
+
 .container-header {
     flex-direction: row;
     max-width: 1158px;
@@ -63,7 +64,11 @@ a {
     text-align: center;
     gap: 48px
 } 
-
+.header-navigation {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -72,6 +77,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo span {
@@ -84,8 +90,14 @@ a {
     line-height: 24px;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    padding: 24px 0; 
 }
-
+.header-nav-link{
+    margin-right: 0;
+}
 .header-address-links {
     font-size: 16px;
     font-weight: 400;
@@ -112,6 +124,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.07;
+    max-width: 496px;
 }
 
 .hero-section-button {
@@ -123,6 +136,9 @@ a {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 
 .hero-section-button:hover,
