@@ -12,6 +12,7 @@ h6 {
     font-size: inherit;
     font-weight: inherit;
     margin: 0;
+    display: flex;
 }
 
 img {
@@ -20,24 +21,29 @@ img {
 
 a {
     text-decoration: none;
+    display: flex;
 }
 
 p {
     margin: 0;
+    display: flex;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 section {
     padding: 120px 0;
+    display: flex;
 }
 
 a {
     text-decoration: none;
+    display: flex;
 }
 .container{
     flex-direction: row;
@@ -79,6 +85,7 @@ a {
     text-transform: uppercase;
     margin-right: 76px;
     color: #4d5ae5;
+    display: flex;
 }
 
 .header-logo span {
