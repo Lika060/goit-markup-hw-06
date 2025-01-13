@@ -206,6 +206,7 @@ a {
     color: #2e2f42;
     letter-spacing: 0.02em;
     display: flex;
+    gap: 24px;
 }
 .card-titles {
     font-size: 20px;
@@ -214,6 +215,7 @@ a {
     color: #2e2f42;
     letter-spacing: 0.02em;
     display: flex;
+    gap: 24px;
 }
 
 .card-text {
@@ -221,8 +223,12 @@ a {
     font-size: 16px;
     line-height: 24px;
     display: flex;
+    gap: 24px;
 }
-
+.section-title-trouble{
+    margin-bottom: 72px;
+    gap: 24px;
+}
 .team-list-cards {
     background-color: #ffffff;
 }
