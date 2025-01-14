@@ -45,17 +45,12 @@ a {
     text-decoration: none;
     display: flex;
 }
-.container{
-    flex-direction: row;
+.container {
     max-width: 1158px;
-    padding: 188px 0;
+    padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 48px}
+}
+
 /* заголовок */
 
 .container-header {
@@ -91,7 +86,10 @@ a {
 .header-logo span {
     color: #2e2f42;
 }
-
+.header__list {
+    display: flex;
+    gap: 40px;
+}
 .header-nav-links {
     font-size: 16px;
     font-weight: 500;
@@ -102,9 +100,6 @@ a {
     gap: 40px;
     margin-right: 40px;
     padding: 24px 0; 
-}
-.header-nav-link{
-    margin-right: 0;
 }
 .header-address-links {
     font-size: 16px;
@@ -143,6 +138,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
@@ -150,7 +146,7 @@ a {
     height: 56px;
     border: none;
     border-radius: 4px;
-    display: flex;
+    display: block;
 }
 .header-list{
     display: flex;
@@ -176,28 +172,9 @@ a {
 .header-address-links:focus {
     color: #404bbf;
 }
-.section-title-trouble {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-    color: #2e2f42;
-}
-
-/* фото1 */
-
-.section-title-troubles {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-    color: #2e2f42;
+.one-item{
+    width: calc((100% - 72px) / 4);
+    gap: 24px;
 }
 .section-title {
     position: absolute;
@@ -212,13 +189,40 @@ a {
     overflow: hidden;
 }
 
+/* фото1 */
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: #2e2f42;
+}
+
 /* фото2 */
-.portfolio__list {
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: #2e2f42;
+}
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
     row-gap: 48px;
+}
+.portfolio-card {
+    width: calc((100% - 48px) / 3);
+    border-bottom: 1px solid #e7e9fc;
+    background-color: #fff;
 }
 .section-title {
     text-align: center;
@@ -279,17 +283,8 @@ header {
 
 /* footer */
 .container-footer {
-   flex-direction: row;
-    max-width: 1158px;
-    padding: 100px 0;
-    margin: 0 auto;
-    display: flex;
-
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 48px
+padding: 100px 0;
+background-color: #2e2f42;
 }
 .footerok {
     background-color: #2e2f42;
