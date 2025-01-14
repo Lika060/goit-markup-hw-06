@@ -176,8 +176,29 @@ a {
 .header-address-links:focus {
     color: #404bbf;
 }
+.section-title-trouble {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: #2e2f42;
+}
 
 /* фото1 */
+
+.section-title-troubles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: #2e2f42;
+}
 .section-title {
     position: absolute;
     width: 1px;
@@ -192,6 +213,13 @@ a {
 }
 
 /* фото2 */
+.portfolio__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    row-gap: 48px;
+}
 .section-title {
     text-align: center;
     letter-spacing: 0.02em;
@@ -236,10 +264,7 @@ a {
     display: flex;
     gap: 24px;
 }
-.section-title-trouble{
-    margin-bottom: 72px;
-    gap: 24px;
-}
+
 .team-list-cards {
     background-color: #ffffff;
 }
