@@ -54,12 +54,13 @@ a {
 /* заголовок */
 
 .container-header {
-    padding: 24px 0;
+    padding: 0 15px;
     border-bottom: 1px solid #e7e9fc;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1158px;
 } 
 .header-navigation {
     display: flex;
@@ -67,6 +68,7 @@ a {
 
 }
 .header-logo {
+    border-bottom: 1px solid #e7e9fc;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -112,6 +114,7 @@ a {
  /* заголовок та кнопка */
 
 .hero-section {
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 
@@ -139,7 +142,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: var(--iris);
+    background-color:#4d5ae5;
 }
 .hero-section-button:hover,
 .hero-section-button:focus {
@@ -172,7 +175,7 @@ a {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
+    margin-bottom: 8px;
     border: 0;
     padding: 0;
     white-space: nowrap;
@@ -189,9 +192,32 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
     color: #2e2f42;
 }
+.team-list-cards{
+    background-color: #ffffff;
+    padding: 32px 0;
+    border-radius: 0px 0px 4px 4px;
+}
+.card-titles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: #2e2f42;
+}
+
+.card-text {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    gap: 24px;
+    text-align: center;
+}
+
 
 /* фото2 */
 .portfolio-title {
@@ -213,8 +239,8 @@ a {
 }
 .portfolio-card {
     width: calc((100% - 48px) / 3);
-    border-bottom: 1px solid #e7e9fc;
     background-color: #fff;
+    border: 1px solid #e7e9fc;
 }
 .section-title {
     text-align: center;
@@ -233,37 +259,7 @@ a {
     border-bottom: 1px solid #e7e9fc;
     
 }
-.card-titl{
-    width: calc((100% - 72px) / 4);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-    display: flex;
-    gap: 24px;
-}
-.card-titles {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-    display: flex;
-    gap: 24px;
-}
 
-.card-text {
-    letter-spacing: 0.02em;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    gap: 24px;
-}
-
-.team-list-cards {
-    background-color: #ffffff;
-}
 
 header {
     background-color: #e7e9fc;
@@ -271,14 +267,13 @@ header {
 
 .team-list-section {
     background-color: #f4f4fd;
+    
 }
 
 /* footer */
-.container-footer {
-padding: 100px 0;
-background-color: #2e2f42;
-}
+
 .footerok {
+    padding: 100px 0;
     background-color: #2e2f42;
 }
 
