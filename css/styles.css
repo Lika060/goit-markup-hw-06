@@ -90,7 +90,7 @@ header {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    margin-right: 76px; 
     color: #4d5ae5;
     display: flex;
 }
@@ -214,6 +214,7 @@ header {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-left: 450px;
     color: #2e2f42;
 }
 .team-list-cards:first-child{
@@ -221,7 +222,7 @@ header {
 }
 .team-list-cards{
     background-color: #ffffff;
-    padding: 32px 0;
+    padding: 32px ;
     border-radius: 0px 0px 4px 4px;
     gap: 24px;
 }
@@ -242,17 +243,19 @@ header {
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
     gap: 24px;
     text-align: center;
 }
-
+.card-content{
+    text-align: center;
+}
 
 /* фото2 */
-.portfolio__content {
+.portfolio-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    text-align: center;
 }
 .portfolio-title {
     font-weight: 700;
@@ -262,10 +265,10 @@ header {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-left: 450px;
     color: #2e2f42;
 }
 .portfolio-list {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
@@ -291,7 +294,7 @@ header {
 .trouble {
     line-height: 1.11;
     border-bottom: 1px solid #e7e9fc;
-    
+
 }
 
 
