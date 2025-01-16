@@ -60,6 +60,7 @@ a {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    align-items: center;
 }
 
 /* заголовок */
@@ -213,18 +214,18 @@ header {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-left: 450px;
+    /* margin-left: 450px; */
     color: #2e2f42;
 }
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
 .team-list-cards{
     background-color: #ffffff;
-    padding: 32px ;
     width: calc(100% - (72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 24px
-}
-.team-list-cards:nth-child(4) {
-    margin-right: 0;
 }
 
 .card-titles {
@@ -234,14 +235,13 @@ header {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     color: #2e2f42;
+    
 }
 
 .card-text {
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 24px;
-    gap: 24px;
-    text-align: center;
 }
 .card-content{
     text-align: center;
