@@ -75,7 +75,6 @@ a {
 
 }
 .header-logo {
-    border-bottom: 1px solid #e7e9fc;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -152,7 +151,6 @@ a {
 }
 
 .hero-section-button {
-   
     cursor: pointer;
     border: none;
     border-radius: 4px;
