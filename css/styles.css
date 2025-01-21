@@ -135,20 +135,10 @@ a {
 .hero-section {
     padding: 188px 0;
     background-color: #2e2f42;
-}
-.hero-section .container{
     width: 1440px;
     height: 600px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 381px;
-    padding-bottom: 40px;
-    /* border-radius: 30px; */
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../hero/people-office\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* width: 1440px;
-    height: 600px; */
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
+    margin: 0 auto;
 }
 
 .hero-section .container{
@@ -187,10 +177,13 @@ a {
 }
 .one-list-icon{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    width: 1128px;
-    height: 224px;
+    border: 1px solid var(#8e8f99);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: var(#f4f4fd);
 }
 .one-list{ 
    display: flex;
@@ -261,6 +254,7 @@ justify-content: center;
 align-items: center;
 border-radius: 50%;
 margin: 8px 0 8px 8px;
+gap: 24px;
 }
 
 /* фото2 */
@@ -319,11 +313,11 @@ margin: 8px 0 8px 8px;
 
 .footerok{
     padding: 100px 0;
-    background-color: #2e2f42;     
+    background-color: #2e2f42; 
+    align-items: baseline
 }
 .footer-svg {
     display: flex;
-    
 
 }
 .footerok-span {
