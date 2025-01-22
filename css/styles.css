@@ -70,6 +70,9 @@ a {
 }
 .container-header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-navigation {
     display: flex;
@@ -125,10 +128,27 @@ a {
     display: flex;
     gap: 40px;
 }
+.header-item{
+    position: relative;
+    color: #404bbf;
+}
+.header-item::after{
+    content:"";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+
 .header-address-list {
     display: flex;
     gap: 40px;
 }
+
 
 
  /* заголовок та кнопка */
@@ -248,6 +268,22 @@ a {
         0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
+.time-list-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4d5ae5;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    gap: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.time-list-links:hover,
+.time-list-links:focus {
+    background-color: #404bbf;
+}
 
 .card-titles {
     font-weight: 500;
@@ -301,6 +337,7 @@ a {
 
 }
 .portfolio-over-text{
+    position: absolute;
     top: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -311,17 +348,22 @@ a {
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card {
     width: calc((100% - 48px) / 3);
     background-color: #fff;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: #404bbf;
     transform: translateY(0%);
+}
+.portfolio-card:focus{
+    background-color: #404bbf;
 }
 .section-title {
     text-align: center;
@@ -384,10 +426,13 @@ a {
     max-width: 264px;
 
 }
+.social-media-con{
+    margin-right: 120px;
+}
 .list-socail-media {
     justify-content: center; 
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 .list-socail-media-svg {
     fill: #f4f4fd;
