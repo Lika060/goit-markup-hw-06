@@ -174,14 +174,27 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color:#4d5ae5;
+    
+}
+.hero-section-button:focus{
+background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-section-button:hover,
 .hero-section-button:focus {
     background-color: #404bbf;
     color: #ffffff;
-    background-color: 250ms cubic-bezier 0.4, 0, 0.2, 1;
 }
-.one-list-icon{
+.two-section-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+/* .one-list-icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +203,7 @@ a {
     width: 264px;
     height: 112px;
     background:#f4f4fd;
-}
+} */
 .one-list{ 
    display: flex;
    gap: 24px;
@@ -259,7 +272,7 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    text-align: center;
+    /* text-align: center; */
 }
 .portfolio-title {
     font-weight: 700;
