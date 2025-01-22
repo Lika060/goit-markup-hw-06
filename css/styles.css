@@ -139,7 +139,7 @@ a {
     max-width: 1440px;
     height: 600px;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -185,11 +185,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(#8e8f99);
+    border: 1px solid #8e8f99;
     border-radius: 4px;
     width: 264px;
     height: 112px;
-    background: var(#f4f4fd);
+    background:#f4f4fd;
 }
 .one-list{ 
    display: flex;
@@ -342,10 +342,11 @@ a {
 }
 .social-media-con{
     margin-right: 120px;
+    display: flex;
 }
 .list-socail-media{
     display: flex;
-    /* gap: 16px; */
+    gap: 16px;
 }
 .time-list-link {
     background: #4d5ae5;
@@ -354,9 +355,6 @@ a {
     height: 100%;
     display: flex;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin: 8px 0 8px 8px;
     gap: 24px;
 }
 .time-list-link:hover,
@@ -365,8 +363,12 @@ a {
 }
 
 .list-socail-media-li{
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 40px;
     height: 40px;
+
 }
 .social-media{
     font-weight: 500;
