@@ -1127,6 +1127,7 @@ margin-left: 16px;
 }
 @media (min-width: 768px) {
     .modal-overlay-two {
+        pointer-events: none;
         opacity: 0;
     }
 }
